@@ -1,0 +1,87 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="product-banner">
+            <img src="{{banner}}"/>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="product-name">
+                {{name}}
+            </div>
+            <div class="product-type">
+                {{type}}
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-12 col-sm-10">
+            <div class="characterstic-heading">
+                Features
+            </div>
+
+
+            <ul class="characterstic">
+                {{#each characterstic.features}}
+                    <li>
+                        <img src="{{this.image}}"/>
+                        <div class="description">{{this.description}}</div>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-12 col-sm-10">
+            <div class="characterstic-heading">
+                Functions
+            </div>
+
+
+            <ul class="characterstic">
+                {{#each characterstic.functions}}
+                    <li>
+                        <img src="{{this.image}}"/>
+                        <div class="description">{{this.description}}</div>
+                {{/each}}
+            </ul>
+        </div>
+        
+        <div class="col-xs-12 col-sm-10">
+            <div class="characterstic-heading">
+                Technical Specifications
+            </div>
+            
+            {{#each characterstic.specifications}}
+                
+                {{#even @index }}
+                    <div class="row specification-row even">
+                        <div class="col-xs-5 col-sm-4">
+                            {{{@key}}}
+                        </div>
+
+                        <div class="col-xs-7 col-sm-8">
+                            {{{this}}}
+                        </div>
+                    </div>
+                {{else}}
+                    <div class="row specification-row">
+                        <div class="col-xs-5 col-sm-4">
+                            {{{@key}}}
+                        </div>
+
+                        <div class="col-xs-7 col-sm-8">
+                            {{{this}}}
+                        </div>
+                    </div>
+                {{/even}}         
+            
+            {{/each}}
+        </div>
+    </div>
+</div>
+

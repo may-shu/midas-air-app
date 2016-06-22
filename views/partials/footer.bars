@@ -1,0 +1,68 @@
+<div class="footer">
+            <div class="hidden-xs hidden-sm visible-md visible-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="width-20">
+                        <div class="heading">
+                            Mobile App
+                        </div>
+
+                        <div class="content">
+                            <img src="/resources/app/images/icon/google-play-badge.png" style="width : 157px">
+                            <img src="/resources/app/images/icon/app_store.svg" style="padding-left: 11px;">
+                        </div>
+                    </div>
+
+                    <div class="width-20">
+                        <div class="heading">
+                            Follow Us
+                        </div>
+
+                        <div class="content">
+                            <i class="fa fa-fw fa-facebook-official"></i>
+                            <i class="fa fa-fw fa-twitter-square"></i>
+                            <i class="fa fa-fw fa-google-plus-square"></i>
+                        </div>
+                    </div>
+
+                    <div class="width-30">
+                        <div class="row">
+                            <div class="heading">Links</div>
+
+                            <div class="content">
+                                <a role="button">About Us</a>
+                                <a role="button">Privacy</a>
+                                <a role="button">Contact Us</a>
+                                <a role="button">Other Products</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="width-30">
+
+                        <div>
+                            <a href="/" class="brand-name">Midas Air Fresher</a>
+                        </div>
+
+                        <div class="copyright">
+                            Copyrights © 2016 | All rights reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="visible-xs visible-sm">
+                <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="copyright">
+                            Copyrights © 2016 | All rights reserved
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
