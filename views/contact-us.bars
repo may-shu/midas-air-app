@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="product-name">
+                Contact Us.
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mar-top-50">
+        <div class="col-xs-12 mar-bottom-15">
+            Please fill in follwing form to contact us.
+        </div>
+    </div>
+    
+    <div class="row mar-bottom-15">
+        <div class="col-xs-12 col-sm-4">
+            <input type="text" class="form-control" placeholder="Name"/>
+        </div>
+    </div>
+    
+    <div class="row mar-bottom-15">
+        <div class="col-xs-12 col-sm-4">
+            <input type="text" class="form-control" placeholder="Email"/>
+        </div>
+    </div>
+    
+    <div class="row mar-bottom-15">
+        <div class="col-xs-12 col-sm-4">
+            <textarea rols="5" class="form-control" placeholder="Your Message"></textarea>
+        </div>
+    </div>
+    
+    <div class="row mar-bottom-15">
+        <div class="col-xs-12 col-sm-4">
+            <button type="button" class="btn btn-primary btn-block">Send</button>
+        </div>
+    </div>
+</div>
+            

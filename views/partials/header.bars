@@ -1,35 +1,35 @@
 <div class="custom-navbar">
-            <div class="container">
+    <div class="container">
 
-                <div class="hidden-xs hidden-sm visible-md visible-lg">
-                    <div class="col-sm-3">
-                        <a href="/" class="brand-name">Midas Air Fresher</a>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <ul class="nav-links">
-                            <li><a role="button" href="/">Home</a></li>
-                            <li><a role="button" href="/">Products</a></li>
-                            <li><a role="button" href="/">Buyer's Point</a></li>
-                            <li><a role="button" href="/">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-sm-3">
-
-                    </div>
-                </div>
+        <div class="hidden-xs hidden-sm visible-md visible-lg">
+            <div class="col-sm-3">
+                <a href="/" class="brand-name">Midas Air Fresher</a>
             </div>
 
-            <div class="container-fluid">
-                <div class="visible-xs visible-sm hidden-md hidden-lg">
-                    <div class="row">
-                    <div class="col-xs-12">
-                        <div class="mobile-brand-name">Midas Air Freshner</div>
+            <div class="col-sm-6">
+                <ul class="nav-links">
+                    <li><a role="button" href="/">Home</a></li>
+                    <li><a role="button" href="/products">Products</a></li>
+                    <li><a role="button" href="/">Buyer's Point</a></li>
+                    <li><a role="button" href="/contact-us">Contact Us</a></li>
+                </ul>
+            </div>
 
-                        <i class="pull-right fa fa-fw fa-ellipsis-v"></i>
-                    </div>
-                    </div>
-                </div>
+            <div class="col-sm-3">
+
             </div>
         </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="visible-xs visible-sm hidden-md hidden-lg">
+            <div class="row">
+            <div class="col-xs-12">
+                <a href="/" class="mobile-brand-name hand">Midas Air Freshner</a>
+
+                <i id="sidebar-ellipsis" class="pull-right fa fa-fw fa-ellipsis-v"></i>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

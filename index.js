@@ -27,14 +27,6 @@ var bars = handleBars.create({
                                     '<i class="fa fa-fw fa-caret-right"></i>' +
                                 '</div>' +
                             '</div>' +
-                
-                            '<ol class="slider-jumps">';
-            
-            for( i=0; i<length; i++ ) {
-                html = html + '<li></li>';
-            }
-            
-            html = html +  '</ol>' +
                     '</div>';
             
             return html;
@@ -312,6 +304,30 @@ app.get( '/product/:name', function( req, res, next ) {
     logger.info( req.params.name );
     res.render( 'product', data );
 });
+
+app.get( '/products', function( req, res, next ) {
+    var data = {
+        airFreshners : [
+            { title : 'Triffle', url : '/product/triffle' },
+            { title : 'Vogue', url : '/product/vogue' },
+            { title : 'Optimus', url : '/product/optimus' },
+            { title : 'Chief', url : 'product/chief' },
+            { title : 'Air Vitamin', url : 'product/air-vitamin' }
+        ],
+        waterFreshners : [
+            { title : 'Ozone', url : 'product/ozone' }
+        ]
+    };
+    res.render( 'products', data );
+});
+
+app.get( '/contact-us', function( req, res, next ) {
+    res.render( 'contact-us' );
+});
+
+app.get( '/about-us', function( req, res, next ) {
+    res.render( 'about-us' );
+})
 
 app.get( '/resources/*', function( req, res, next ) {
     res.sendFile(__dirname + '/' + req.originalUrl );

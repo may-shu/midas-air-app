@@ -1,0 +1,49 @@
+<div class="container height425">
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="product-selectors air">
+            Air Purifiers
+            </div>
+        </div>
+        
+        <div class="col-xs-6">
+            <div class="product-selectors water">
+            Water Purifiers
+            </div>
+        </div>
+    </div>
+    
+    <div class="arrow"></div>
+    
+    <div class="air-freshners">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="characterstic">
+                    {{#each airFreshners}}
+                        <li>
+                            <a href="{{this.url}}">
+                                <img src="/resources/app/images/icon/placeholder.png"/>
+                                <div class="description">{{this.title}}</div>
+                            </a>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="water-purifiers">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="characterstic">
+                    {{#each waterFreshners}}
+                        <li>
+                            <a href="{{this.url}}">
+                                <img src="/resources/app/images/icon/placeholder.png"/>
+                                <div class="description">{{this.title}}</div>
+                            </a>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

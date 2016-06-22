@@ -9,16 +9,31 @@
 
         <link type="text/css" href="/resources/external/css/bootstrap.min.css" rel="stylesheet">
         <link type="text/css" href="/resources/app/css/site.css" rel="stylesheet">
-        
+        <script src="/resources/external/js/velocity.min.js"></script>
     </head>
 
     <body>
+    
+        <div class="main-content">
 
         {{> header }}
         
         {{{ body }}}
         
-        {{> footer s}}
+        {{> footer}}
+        </div>
+        
+        <div class="visible-xs visible-sm hidden-lg hidden-md">
+            <div class="side-bar">
+                <ul class="links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="/">Buyer's Point</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
     
+        <script src="/resources/app/js/site.js"></script>
     </body>
 </html>
